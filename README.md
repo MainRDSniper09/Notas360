@@ -1,2 +1,2 @@
 # Notas360
-Proyecto aula virtual, similar a Moodle
+Notas explicando la funcionalidad de Notas365
