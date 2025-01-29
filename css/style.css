@@ -1,0 +1,34 @@
+.cont-header h1{
+    color: #336666;
+}
+
+.cont-header form {
+    width: 350px;
+    height: auto;
+    border: 1px solid #336666;
+    padding: 1em;
+    margin: 2em;
+    border-radius: 1em;
+}
+
+.cont-header form .label{
+    display: block;
+    padding: 10px;
+}
+
+.cont-header input{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#loginUsuario, #loginProfesor {
+    display: block;
+    width: 100%;
+    padding: .7em;
+    border: none;
+    border-radius: 8px;
+    background: #153744;
+    color: #fff;
+    cursor: pointer;
+}
