@@ -30,19 +30,21 @@
             </ul>
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-                  <form action="" method="POST" onsubmit="return validar()">
+                  <form action=""  onsubmit="return validar()">
                     <label for="usuario">usuario</label>
                     <input type="text" name="usuario" id="usuario" placeholder="nombre de usuario">
                     <label for="password">contraseña</label>
+                    <div id="messageUsuario"></div>
                     <input type="password" name="pass" id="pass" placeholder="contraseña">
                     <button id="loginUsuario" type="button">INICIAR SESION</button>
                   </form>
                 </div>
                 <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-                  <form action="" method="POST" onsubmit="return validar()">
+                  <form action=""  onsubmit="return validar()">
                     <label for="usuario">usuario</label>
                     <input type="text" name="usuario" id="usuario" placeholder="nombre de usuario">
                     <label for="password">contraseña</label>
+                    <div id="messageProfesor"></div>
                     <input type="password" name="pass" id="pass" placeholder="contraseña">
                     <button id="loginProfesor" type="button">INICIAR SESION</button>
                   </form>
