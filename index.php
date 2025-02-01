@@ -11,8 +11,8 @@
         <header class="main-header">
           <div class="main-cont">
             <div class="desc-header">
-              <img src="images/school.svg" alt="imagen escuela">
-              <p>escuela</p>
+              <img src="images/school.svg" alt="imagen logo">
+              
             </div>
           </div>
           <div class="cont-header">

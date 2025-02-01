@@ -33,7 +33,7 @@ function loginProfesor(){
     var pass = $('#pass').val();
 
     $.ajax({
-        URL: './includes/loginProfesor.php',
+        url: './includes/loginProfesor.php',
         method: 'POST',
         data: {
             login:login,
