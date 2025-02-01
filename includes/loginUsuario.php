@@ -8,7 +8,7 @@ if(!empty($_POST)) {
         $login = $_POST['login'];
         $pass = $_POST['pass'];
 
-        $sql = 'SELECT * FROM usuarios as a INNER JOIN rol as r ON u.rol = r.rol_id WHERE u.usuario = ?';
+        $sql = 'SELECT * FROM usuarios as u INNER JOIN rol as r ON u.rol = r.rol_id WHERE u.usuario = ?';
         $query = $pdo -> prepare($sql);
         $query -> execute(array($login));
         $result = $query ->fetch(PDO::FETCH_ASSOC);
